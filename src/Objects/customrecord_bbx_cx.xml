@@ -1,0 +1,82 @@
+<customrecordtype scriptid="customrecord_bbx_cx">
+  <description>Billabex Connection</description>
+  <recordname>Billabex Connection</recordname>
+  <accesstype>USEPERMISSIONLIST</accesstype>
+  <permissions>
+    <permission>
+      <permittedrole>ADMINISTRATOR</permittedrole>
+      <permittedlevel>FULL</permittedlevel>
+    </permission>
+  </permissions>
+  <allowattachments>F</allowattachments>
+  <allowuiaccess>F</allowuiaccess>
+  <enablekeywords>F</enablekeywords>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_org_id">
+      <label>Organization ID</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_client_id">
+      <label>Client ID</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_client_secret">
+      <label>Client Secret</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>HIDDEN</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_registration_token">
+      <label>Registration Token</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>HIDDEN</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_access_token">
+      <label>Access Token</label>
+      <fieldtype>TEXTAREA</fieldtype>
+      <displaytype>HIDDEN</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_refresh_token">
+      <label>Refresh Token</label>
+      <fieldtype>TEXTAREA</fieldtype>
+      <displaytype>HIDDEN</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_access_expires_at">
+      <label>Access Token Expires At</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_refresh_expires_at">
+      <label>Refresh Token Expires At</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_pkce_verifier">
+      <label>PKCE Verifier</label>
+      <fieldtype>TEXTAREA</fieldtype>
+      <displaytype>HIDDEN</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_pkce_state">
+      <label>PKCE State</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>HIDDEN</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_cx_connected">
+      <label>Connected</label>
+      <fieldtype>CHECKBOX</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+</customrecordtype>

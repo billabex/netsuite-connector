@@ -1,0 +1,12 @@
+<centercategory scriptid="custcentercategory_bbx_setup">
+    <center>BASIC</center>
+    <centertab>BASICCENTERSETUP</centertab>
+    <label>Billabex</label>
+    <links>
+        <link>
+            <linkobject>[scriptid=customscript_bbx_setup.customdeploy_bbx_setup]</linkobject>
+            <linktasktype>SCRIPT</linktasktype>
+            <linklabel>Setup</linklabel>
+        </link>
+    </links>
+</centercategory>

@@ -1,0 +1,15 @@
+<usereventscript scriptid="customscript_bbx_ue_credit_memo">
+  <name>Billabex Sync Credit Memo</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/ue_credit_memo.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_ue_credit_memo">
+      <status>RELEASED</status>
+      <isdeployed>T</isdeployed>
+      <allroles>T</allroles>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>CREDITMEMO</recordtype>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>

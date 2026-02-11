@@ -1,0 +1,27 @@
+<scheduledscript scriptid="customscript_bbx_cleanup_logs">
+  <name>Billabex Cleanup Logs</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/cleanup_logs.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_cleanup_logs">
+      <title>Billabex Cleanup Logs</title>
+      <status>SCHEDULED</status>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recurrence>
+        <weekly>
+          <everyxweeks>1</everyxweeks>
+          <sunday>T</sunday>
+          <monday>F</monday>
+          <tuesday>F</tuesday>
+          <wednesday>F</wednesday>
+          <thursday>F</thursday>
+          <friday>F</friday>
+          <saturday>F</saturday>
+          <startdate>2026-02-15</startdate>
+          <starttime>03:00:00Z</starttime>
+        </weekly>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

@@ -1,0 +1,8 @@
+<transactionbodycustomfield scriptid="custbody_bbx_invoice_id">
+  <label>Billabex Invoice ID</label>
+  <description>Billabex Invoice UUID - managed by the Billabex connector</description>
+  <fieldtype>TEXT</fieldtype>
+  <displaytype>NORMAL</displaytype>
+  <ismandatory>F</ismandatory>
+  <bodysale>T</bodysale>
+</transactionbodycustomfield>

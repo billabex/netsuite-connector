@@ -1,0 +1,17 @@
+<suitelet scriptid="customscript_bbx_setup_oac_init">
+  <name>Billabex OAuth Initialization</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/setup_oac_init.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_setup_oac_init">
+      <title>Billabex OAuth Initialization</title>
+      <status>RELEASED</status>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <allroles>F</allroles>
+      <isonline>T</isonline>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <audslctrole>ADMINISTRATOR</audslctrole>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

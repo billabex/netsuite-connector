@@ -1,0 +1,12 @@
+<entitycustomfield scriptid="custentity_bbx_contact_id">
+  <label>Billabex Contact ID</label>
+  <description>Billabex Contact UUID - managed by the Billabex connector</description>
+  <fieldtype>TEXT</fieldtype>
+  <displaytype>NORMAL</displaytype>
+  <ismandatory>F</ismandatory>
+  <appliestocustomer>F</appliestocustomer>
+  <appliestocontact>T</appliestocontact>
+  <appliestoemployee>F</appliestoemployee>
+  <appliestogroup>F</appliestogroup>
+  <appliestoothername>F</appliestoothername>
+</entitycustomfield>
