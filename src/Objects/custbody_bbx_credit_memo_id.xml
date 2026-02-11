@@ -1,0 +1,8 @@
+<transactionbodycustomfield scriptid="custbody_bbx_credit_memo_id">
+  <label>Billabex Credit Note ID</label>
+  <description>Billabex Credit Note UUID - managed by the Billabex connector</description>
+  <fieldtype>TEXT</fieldtype>
+  <displaytype>NORMAL</displaytype>
+  <ismandatory>F</ismandatory>
+  <bodysale>T</bodysale>
+</transactionbodycustomfield>

@@ -1,0 +1,15 @@
+<usereventscript scriptid="customscript_bbx_ue_invoice">
+  <name>Billabex Sync Invoice</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/ue_invoice.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_ue_invoice">
+      <status>RELEASED</status>
+      <isdeployed>T</isdeployed>
+      <allroles>T</allroles>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>INVOICE</recordtype>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>

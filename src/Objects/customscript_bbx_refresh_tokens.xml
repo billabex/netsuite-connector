@@ -1,0 +1,21 @@
+<scheduledscript scriptid="customscript_bbx_refresh_tokens">
+  <name>Billabex Refresh Tokens</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/refresh_tokens.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_refresh_tokens">
+      <title>Billabex Refresh Tokens</title>
+      <status>SCHEDULED</status>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <startdate>2026-02-10</startdate>
+          <starttime>00:00:00Z</starttime>
+          <repeat>PT30M</repeat>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

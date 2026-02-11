@@ -1,0 +1,17 @@
+<suitelet scriptid="customscript_bbx_setup">
+  <name>Billabex Setup</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/setup.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_setup">
+      <title>Billabex Setup</title>
+      <status>RELEASED</status>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <allroles>F</allroles>
+      <isonline>T</isonline>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <audslctrole>ADMINISTRATOR</audslctrole>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

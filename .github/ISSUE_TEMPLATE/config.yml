@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.billabex.com
+    about: Check the documentation for setup and usage guides
+  - name: Billabex Support
+    url: mailto:support@billabex.com
+    about: Contact Billabex support for platform-related questions

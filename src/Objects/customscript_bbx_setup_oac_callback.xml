@@ -1,0 +1,17 @@
+<suitelet scriptid="customscript_bbx_setup_oac_callback">
+  <name>Billabex OAuth Callback</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/setup_oac_callback.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_oac_callback">
+      <title>Billabex OAuth Callback</title>
+      <status>RELEASED</status>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <allroles>F</allroles>
+      <isonline>T</isonline>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <audslctrole>ADMINISTRATOR</audslctrole>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

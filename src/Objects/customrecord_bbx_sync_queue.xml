@@ -1,0 +1,59 @@
+<customrecordtype scriptid="customrecord_bbx_sync_queue">
+  <description>Billabex Sync Queue</description>
+  <recordname>Billabex Sync Queue</recordname>
+  <accesstype>USEPERMISSIONLIST</accesstype>
+  <permissions>
+    <permission>
+      <permittedrole>ADMINISTRATOR</permittedrole>
+      <permittedlevel>FULL</permittedlevel>
+    </permission>
+  </permissions>
+  <allowattachments>F</allowattachments>
+  <allowuiaccess>T</allowuiaccess>
+  <enablekeywords>F</enablekeywords>
+
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_bbx_sq_record_type">
+      <label>Record Type</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>NetSuite record type (customer, contact, invoice, creditmemo, customerpayment)</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sq_record_id">
+      <label>Record ID</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>NetSuite internal ID of the record</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sq_action">
+      <label>Action</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>Sync action (create, update, delete, sync)</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sq_status">
+      <label>Status</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>Queue status (pending, processing, failed)</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sq_error">
+      <label>Error</label>
+      <fieldtype>TEXTAREA</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+      <description>Error message if failed</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sq_retry_count">
+      <label>Retry Count</label>
+      <fieldtype>INTEGER</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+      <description>Number of retry attempts</description>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+</customrecordtype>

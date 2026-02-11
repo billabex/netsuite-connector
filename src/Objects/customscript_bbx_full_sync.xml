@@ -1,0 +1,13 @@
+<mapreducescript scriptid="customscript_bbx_full_sync">
+  <name>Billabex Full Sync</name>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/full_sync.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_full_sync">
+      <title>Billabex Full Sync</title>
+      <status>NOTSCHEDULED</status>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+    </scriptdeployment>
+  </scriptdeployments>
+</mapreducescript>

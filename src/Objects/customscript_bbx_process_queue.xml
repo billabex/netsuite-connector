@@ -1,0 +1,21 @@
+<scheduledscript scriptid="customscript_bbx_process_queue">
+  <name>Billabex Process Sync Queue</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/process_sync_queue.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_process_queue">
+      <title>Billabex Process Sync Queue</title>
+      <status>SCHEDULED</status>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recurrence>
+        <daily>
+          <everyxdays>1</everyxdays>
+          <startdate>2026-02-10</startdate>
+          <starttime>00:30:00Z</starttime>
+          <repeat>PT30M</repeat>
+        </daily>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</scheduledscript>

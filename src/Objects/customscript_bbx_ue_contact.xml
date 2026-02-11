@@ -1,0 +1,15 @@
+<usereventscript scriptid="customscript_bbx_ue_contact">
+  <name>Billabex Sync Contact</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/ue_contact.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_ue_contact">
+      <status>RELEASED</status>
+      <isdeployed>T</isdeployed>
+      <allroles>T</allroles>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>CONTACT</recordtype>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>

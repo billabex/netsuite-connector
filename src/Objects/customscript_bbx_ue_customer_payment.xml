@@ -1,0 +1,15 @@
+<usereventscript scriptid="customscript_bbx_ue_customer_payment">
+  <name>Billabex Sync Customer Payment</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/billabex/ue_customer_payment.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_bbx_ue_cust_payment">
+      <status>RELEASED</status>
+      <isdeployed>T</isdeployed>
+      <allroles>T</allroles>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>CUSTOMERPAYMENT</recordtype>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>

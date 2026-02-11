@@ -1,0 +1,66 @@
+<customrecordtype scriptid="customrecord_bbx_sync_log">
+  <description>Billabex Sync Log</description>
+  <recordname>Billabex Sync Log</recordname>
+  <accesstype>USEPERMISSIONLIST</accesstype>
+  <permissions>
+    <permission>
+      <permittedrole>ADMINISTRATOR</permittedrole>
+      <permittedlevel>FULL</permittedlevel>
+    </permission>
+  </permissions>
+  <allowattachments>F</allowattachments>
+  <allowuiaccess>T</allowuiaccess>
+  <enablekeywords>F</enablekeywords>
+
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_bbx_sl_operation">
+      <label>Operation</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>API operation (e.g. accounts.create, invoices.updatePaidAmount)</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sl_record_type">
+      <label>Record Type</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>NetSuite record type</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sl_record_id">
+      <label>Record ID</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>NetSuite internal ID of the record</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sl_bbx_id">
+      <label>Billabex ID</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+      <description>Billabex UUID if applicable</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sl_status">
+      <label>Status</label>
+      <fieldtype>TEXT</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>T</ismandatory>
+      <description>Result status (success, error)</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sl_message">
+      <label>Message</label>
+      <fieldtype>TEXTAREA</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+      <description>Details or error message</description>
+    </customrecordcustomfield>
+    <customrecordcustomfield scriptid="custrecord_bbx_sl_duration">
+      <label>Duration (ms)</label>
+      <fieldtype>INTEGER</fieldtype>
+      <displaytype>NORMAL</displaytype>
+      <ismandatory>F</ismandatory>
+      <description>Duration of the API call in milliseconds</description>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+</customrecordtype>
